@@ -1,0 +1,7 @@
+name: astrbot_plugin_md_strip
+display_name: 去除 Markdown 符号
+short_desc: 发送前剥掉 QQ 不渲染的 Markdown 符号。
+desc: 在消息发送前扫描 Plain 文本，去掉 **加粗**、__粗体__、# 标题、`代码`、> 引用、代码围栏等符号，保留文字内容；列表符号换成 ·，避免群里看到一串星号和井号。
+version: 1.0.0
+author: Coe
+astrbot_version: ">=4.16,<5"
